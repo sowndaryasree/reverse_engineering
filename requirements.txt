@@ -1,0 +1,6 @@
+streamlit>=1.30
+torch>=2.2
+torch_geometric>=2.5
+numpy
+pandas
+matplotlib

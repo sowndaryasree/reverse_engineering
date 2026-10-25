@@ -1,0 +1,27 @@
+{
+  "dataset": "politifact",
+  "feature": "spacy",
+  "in_dim": 300,
+  "hidden": 64,
+  "conv": "sage",
+  "num_classes": 2,
+  "dropout": 0.5,
+  "epochs": 40,
+  "lr": 0.005,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+    "class_names": [
+    "Real",
+    "Fake"
+  ],
+  "fake_class_index": 1,
+  "weights_from_seed": 0,
+  "torch": "2.11.0+cu130",
+  "torch_geometric": "2.8.1",
+  "sklearn": "1.6.1"
+}

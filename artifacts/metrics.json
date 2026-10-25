@@ -1,0 +1,137 @@
+{
+  "test_mean_std": {
+    "Baseline (mean features, no graph)": {
+      "accuracy": [
+        0.7701357466063348,
+        0.004433465597797619
+      ],
+      "precision_macro": [
+        0.7757187394831908,
+        0.005080179276308493
+      ],
+      "recall_macro": [
+        0.7713700426089807,
+        0.00407447090180462
+      ],
+      "f1_macro": [
+        0.76942171957801,
+        0.004902337209636742
+      ]
+    },
+    "GraphSAGE GNN (uses graph)": {
+      "accuracy": [
+        0.8,
+        0.014980041047282214
+      ],
+      "precision_macro": [
+        0.8018188573014087,
+        0.016094329996393868
+      ],
+      "recall_macro": [
+        0.8007374631268437,
+        0.015294525278664914
+      ],
+      "f1_macro": [
+        0.7998978516464471,
+        0.01492484193048562
+      ]
+    }
+  },
+  "early_detection": {
+    "K=1": {
+      "nodes_kept_percent": 61.14766627652426,
+      "Baseline (mean features, no graph)": {
+        "accuracy": 0.7647058823529411,
+        "precision_macro": 0.7952741702741702,
+        "recall_macro": 0.7682726974762373,
+        "f1_macro": 0.7599832915622389
+      },
+      "GraphSAGE GNN (uses graph)": {
+        "accuracy": 0.7918552036199095,
+        "precision_macro": 0.7962410995197879,
+        "recall_macro": 0.7931825630940675,
+        "f1_macro": 0.7915094339622641
+      }
+    },
+    "K=2": {
+      "nodes_kept_percent": 90.46863159035072,
+      "Baseline (mean features, no graph)": {
+        "accuracy": 0.7692307692307693,
+        "precision_macro": 0.7810008481764207,
+        "recall_macro": 0.7714683710258932,
+        "f1_macro": 0.7676896757837459
+      },
+      "GraphSAGE GNN (uses graph)": {
+        "accuracy": 0.8099547511312217,
+        "precision_macro": 0.8145388309322735,
+        "recall_macro": 0.8112913798754506,
+        "f1_macro": 0.8096390484003282
+      }
+    },
+    "K=3": {
+      "nodes_kept_percent": 96.26400542813222,
+      "Baseline (mean features, no graph)": {
+        "accuracy": 0.7647058823529411,
+        "precision_macro": 0.7752747252747253,
+        "recall_macro": 0.7668387413962636,
+        "f1_macro": 0.7633053221288515
+      },
+      "GraphSAGE GNN (uses graph)": {
+        "accuracy": 0.8099547511312217,
+        "precision_macro": 0.8145388309322735,
+        "recall_macro": 0.8112913798754506,
+        "f1_macro": 0.8096390484003282
+      }
+    },
+    "K=4": {
+      "nodes_kept_percent": 98.63507992390095,
+      "Baseline (mean features, no graph)": {
+        "accuracy": 0.7647058823529411,
+        "precision_macro": 0.7752747252747253,
+        "recall_macro": 0.7668387413962636,
+        "f1_macro": 0.7633053221288515
+      },
+      "GraphSAGE GNN (uses graph)": {
+        "accuracy": 0.8099547511312217,
+        "precision_macro": 0.8145388309322735,
+        "recall_macro": 0.8112913798754506,
+        "f1_macro": 0.8096390484003282
+      }
+    },
+    "K=6": {
+      "nodes_kept_percent": 99.924576048116,
+      "Baseline (mean features, no graph)": {
+        "accuracy": 0.7647058823529411,
+        "precision_macro": 0.7752747252747253,
+        "recall_macro": 0.7668387413962636,
+        "f1_macro": 0.7633053221288515
+      },
+      "GraphSAGE GNN (uses graph)": {
+        "accuracy": 0.8099547511312217,
+        "precision_macro": 0.8145388309322735,
+        "recall_macro": 0.8112913798754506,
+        "f1_macro": 0.8096390484003282
+      }
+    },
+    "full graph": {
+      "nodes_kept_percent": 100.0,
+      "Baseline (mean features, no graph)": {
+        "accuracy": 0.7647058823529411,
+        "precision_macro": 0.7752747252747253,
+        "recall_macro": 0.7668387413962636,
+        "f1_macro": 0.7633053221288515
+      },
+      "GraphSAGE GNN (uses graph)": {
+        "accuracy": 0.8099547511312217,
+        "precision_macro": 0.8145388309322735,
+        "recall_macro": 0.8112913798754506,
+        "f1_macro": 0.8096390484003282
+      }
+    }
+  },
+  "split_sizes": {
+    "train": 62,
+    "val": 31,
+    "test": 221
+  }
+}
